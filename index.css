@@ -1,0 +1,84 @@
+body {
+    background: #ee9ca7;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+}
+.container {
+    background-color: white;
+    padding: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow:
+    0 0 50px #000000;
+
+}
+.container1 {
+    padding: 10px 0;
+    margin-top: 80px;
+    
+}
+a {
+    color: #252525;
+}
+#players-details {
+ display: flex;
+ flex-direction: row;   
+ justify-content: space-evenly;
+ margin-bottom: 20px;
+}
+#player1Score,
+#player2Score {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.card{
+    max-width: 50px;
+    font-size: 30px;
+    color: #252525;
+    background: skyblue;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#resetGame {
+    display: none;
+}
+.active {
+    box-shadow:
+    0 0 20px #000000;
+}
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    color: darkslategray;
+}
+#resetGame, #rollDice {
+    margin: 0 auto;
+}
+/* Rules page styling */
+#rules-container {
+    margin-top: 156px;
+}
+#rules {
+    font-size: 100px;
+    margin-bottom: 4px;
+}
+.rule {
+    font-size: larger;
+}
+.btn {
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    background: darkslategray;
+    color: wheat;
+    border-radius: 5px;
+    text-decoration: none;
+}
