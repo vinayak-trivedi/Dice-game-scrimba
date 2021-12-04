@@ -22,6 +22,7 @@ rollBtn.addEventListener("click", gameStart)
 
 
 function gameStart() {
+    rollBtn.disabled = true
     const randomNumber = Math.floor(Math.random()*6) + 1
     messageEl.textContent = "COMPUTER'S CHANCE"
     player1Dice.textContent = randomNumber
@@ -52,7 +53,7 @@ function computerGame() {
         rollBtn.style.display = "none"
         resetBtn.style.display = "block"
     }
-   
+   rollBtn.disabled = false
 }
 resetBtn.addEventListener("click", resetGame) 
 
@@ -68,4 +69,5 @@ function resetGame() {
     resetBtn.style.display = "none"
     player2Dice.classList.remove("active")
     player1Dice.classList.add("active")
+    rollBtn.disabled = false
 }
